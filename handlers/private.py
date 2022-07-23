@@ -88,7 +88,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/FRESTYSHT")
                  ],
                  [
                      InlineKeyboardButton(
