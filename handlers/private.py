@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ 🎉", url=f"https://t.me/MajesteMusicProBot?startgroup=true"
+                        "🎉 ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ 🎉", url=f"https://t.me/TTKMusic_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/MajesteMusicAsistan"
+                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/TTKAsistant"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/MajesteSahip"
+                        "📝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/FRESTYSHT"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 ᴋᴏᴍᴜᴛʟᴀʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/MajesteBotlar"
+                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/TTK_resmi"
                     )
                 ]
                 
@@ -53,8 +53,8 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/MajesteSahip")
-                 ]
+                         "📩 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/FRESTYSHT)
+                 
              ]
          )
     )
@@ -75,7 +75,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip")
+            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/FRESTYSHT")
         ]
       ]
      ))
@@ -106,7 +106,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/MajesteSahip")
+                         "⚙ Geliştirici", url="https://t.me/FRESTYSHT")
                  ],
                  [
                      InlineKeyboardButton(
@@ -129,10 +129,10 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/MajesteMusicAsistan"
+                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/TTKAsistant"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/MajesteSahip"
+                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/FRESTYSHT"
                     )
                 ],
                 [
@@ -140,7 +140,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 𝐊𝐨𝐦𝐮𝐭𝐥𝐚𝐫" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/MajesteBotlar"
+                        "📝 𝐊𝐚𝐧𝐚𝐥", url=f"https://t.me/TTK_resmi"
                     )
                 ]
                 
