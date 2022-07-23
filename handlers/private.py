@@ -53,7 +53,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/FRESTYSHT)
+                         "📩 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/FRESTYSHT")
                  
              ]
          )
